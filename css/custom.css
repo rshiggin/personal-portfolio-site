@@ -1,6 +1,6 @@
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 16px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
   color: #404040;
 }
 p {
@@ -17,11 +17,12 @@ h4,
 h5,
 h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 600;
 }
 a {
-  color: #404040;
+  color: #0085a1;
 }
+
 a:hover,
 a:focus {
   color: #0085a1;
@@ -139,7 +140,7 @@ hr.small {
 .jumbotron h1 {
   color: #eee8aa;
   font-size: 48px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 .jumbotron h2 {
   color: #eee8aa;
@@ -343,20 +344,23 @@ form .row:first-child .floating-label-form-group {
 .btn-primary {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  color: #0000;
+  color: #171414;
   margin-left: 40px;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 1px;
   padding: 10px 15px;
   background-color: #99CCCC;
   border-radius: 40px;
 }
+.btn-primary:link {
+color: #171414;
+}
 .btn-primary:hover,
 .btn-primary:focus {
   background-color: #99CCCC;
-  border: 1px solid #99CCCC;
-  color: #00000;
+  border: 1px solid #171414;
+  color: #171414;
 }
 .btn-primary .pager {
   margin: 20px 0 0;
@@ -407,3 +411,8 @@ form .row:first-child .floating-label-form-group {
 .btn-primary body {
   webkit-tap-highlight-color: #0085a1;
 }
+.navbar-default {
+  font-size: 16px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+ } 
